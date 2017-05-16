@@ -63,8 +63,6 @@ class Comment{
         return $str;
 
     }
-
-
     /**
      * 显示评论内容
      * @return string

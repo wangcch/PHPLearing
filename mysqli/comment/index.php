@@ -31,11 +31,11 @@ if($mysqli_result&& $mysqli_result->num_rows>0){
             
             <label for="face">头像</label>
             <div id='face'>
-					<input type="radio" name="face" checked='checked' value="1" /><img src="img/1.jpg" alt="" width='50' height='50' />&nbsp;&nbsp;&nbsp;
-					<input type="radio" name="face"  value="2" /><img src="img/2.jpg" alt="" width='50' height='50' />&nbsp;&nbsp;&nbsp;
-					<input type="radio" name="face"  value="3" /><img src="img/3.jpg" alt="" width='50' height='50' />&nbsp;&nbsp;&nbsp;
-					<input type="radio" name="face"  value="4" /><img src="img/4.jpg" alt="" width='50' height='50' />&nbsp;&nbsp;&nbsp;
-					<input type="radio" name="face"  value="5" /><img src="img/5.jpg" alt="" width='50' height='50' />&nbsp;&nbsp;&nbsp;
+					<input type="radio" name="face" checked='checked' value="1" /><img src="img/1.png" alt="" width='50' height='50' />&nbsp;&nbsp;&nbsp;
+					<input type="radio" name="face"  value="2" /><img src="img/2.png" alt="" width='50' height='50' />&nbsp;&nbsp;&nbsp;
+					<input type="radio" name="face"  value="3" /><img src="img/3.png" alt="" width='50' height='50' />&nbsp;&nbsp;&nbsp;
+					<input type="radio" name="face"  value="4" /><img src="img/4.png" alt="" width='50' height='50' />&nbsp;&nbsp;&nbsp;
+					<input type="radio" name="face"  value="5" /><img src="img/5.png" alt="" width='50' height='50' />&nbsp;&nbsp;&nbsp;
             </div>
             <label for="email">邮箱</label>
             <input type="email" name="email" id="email" required='required' placeholder='请输入合法邮箱'/>
