@@ -5,6 +5,9 @@
  * Date: 2017/5/12
  * Time: 18:35
  *
+ * extension=php_pdo.dll
+ * extension=php_pdo_mysql.dll
+ *
  * 单态类  为了产生唯一的对象 不是用构造方法
  */
 
