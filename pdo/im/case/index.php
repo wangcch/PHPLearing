@@ -15,8 +15,10 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<a class="hiddenanchor" id="toregister"></a>
+<a class="hiddenanchor" id="tologin"></a>
     <div id="container">
-        <div id="login">
+        <div id="login" class="animate">
             <form action="doAction.php?act=login" method="post">
                 <h1>Log in</h1>
                 <p>
@@ -27,12 +29,16 @@
                     <label for="password" class="upassword">Password</label><br>
                     <input type="password" name="password" id="password">
                 </p>
-                <input type="submit" value="LOGIN">
+
+                <input type="submit" class="button" value="LOGIN">
+                <p>
+                    <a href="#toregister">join us</a>
+                </p>
             </form>
         </div>
 
 
-        <div id="register">
+        <div id="register" class="animate">
             <form action="doAction.php?act=reg">
                 <h1>Sign up</h1>
                 <p>
@@ -47,8 +53,10 @@
                     <label for="password" class="upassword">Password</label><br>
                     <input type="password" name="password" id="password">
                 </p>
-                <input type="submit" value="REGISTER">
-
+                <input type="submit" class="button" value="REGISTER">
+                <p>
+                    <a href="#tologin">sign in</a>
+                </p>
             </form>
         </div>
     </div>
