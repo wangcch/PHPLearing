@@ -23,11 +23,11 @@
                 <h1>Log in</h1>
                 <p>
                     <label for="username" class="uname">Your Name</label><br>
-                    <input type="text" name="username" id="username">
+                    <input type="text" name="username" id="username" required="required">
                 </p>
                 <p>
                     <label for="password" class="upassword">Password</label><br>
-                    <input type="password" name="password" id="password">
+                    <input type="password" name="password" id="password" required="required">
                 </p>
 
                 <input type="submit" class="button" value="LOGIN">
@@ -39,19 +39,19 @@
 
 
         <div id="register" class="animate">
-            <form action="doAction.php?act=reg">
+            <form action="doAction.php?act=reg" method="post">
                 <h1>Sign up</h1>
                 <p>
                     <label for="username" class="uname">Your Name</label><br>
-                    <input type="text" name="username" id="username">
+                    <input type="text" name="username" id="username" required="required">
                 </p>
                 <p>
                     <label for="email" class="uemail">Your Email</label><br>
-                    <input type="email" name="email" id="eamil">
+                    <input type="email" name="email" id="eamil" required="required">
                 </p>
                 <p>
                     <label for="password" class="upassword">Password</label><br>
-                    <input type="password" name="password" id="password">
+                    <input type="password" name="password" id="password" required="required">
                 </p>
                 <input type="submit" class="button" value="REGISTER">
                 <p>

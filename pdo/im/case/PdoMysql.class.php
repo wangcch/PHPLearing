@@ -5,7 +5,6 @@
  * Date: 2017/5/21
  * Time: 2:20
  */
-header('content-type:text/html;charset=utf-8');
 
 class PdoMySQL{
     public static $config=array();

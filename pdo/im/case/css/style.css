@@ -28,7 +28,6 @@ h1{
     width: 35%;
     min-width: 500px;
     height: 350px;
-    /*min-height: 309px;*/
     background-color: rgba(255,255,255,1);
     border-radius: 8px;
     box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
@@ -41,8 +40,7 @@ h1{
 #register{
     width: 35%;
     min-width: 500px;
-    height: 50%;
-    min-height: 350px;
+    height: 350px;
     background-color: rgba(255,255,255,1);
     border-radius: 8px;
     box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
