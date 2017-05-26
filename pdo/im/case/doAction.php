@@ -23,13 +23,13 @@ if ($act='reg'){
     $res=$PdoMySQL->add($data,$TABLE);
     $lastInsertId=$PdoMySQL->getLastInsertId();
     if ($res){
-        $transport=Swift_SmtpTransport::newInstance('smtp.qq.com',25);
+        $transport=Swift_SmtpTransport::newInstance('smtp.qq.com',465);
         $transport->setUsername('stamp612@qq.com');
         $transport->setPassword($emailPassword);
 
         $mailer=Swift_Mailer::newInstance($transport);
         $message=Swift_Message::newInstance();
-        $message->setFrom(array("stamp612@qq.com"=>'demo'));
+        $message->setFrom('stamp612@qq.com');
         $message->setTo(array($email=>'user'));
         $message->setSubject('激活邮件');
 
